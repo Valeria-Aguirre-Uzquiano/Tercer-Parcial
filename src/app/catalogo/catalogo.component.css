@@ -1,0 +1,30 @@
+.card{
+    height: 500px;
+    border-radius: 20px;
+    border: #81B14F;
+    border-width: 2px;
+    border-style: solid;
+    padding: 15px;
+}
+
+.card i{
+    font-size: 30px;
+}
+
+.prov{
+    width: 22%;
+    padding: 10px;
+    background-color: #D7D3C1;
+    font-family: 'Malgun Gothic';
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.prov i{
+    font-size: 30px;
+    padding: 0 5px 0 5px;
+    color: black;
+}

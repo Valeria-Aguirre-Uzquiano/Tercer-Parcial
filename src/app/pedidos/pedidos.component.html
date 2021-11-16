@@ -1,0 +1,77 @@
+<h1>Tu lista de Pedidos</h1>
+
+<div class="row" style="width: 1500px;">
+    <div class="col">
+        <div class="lista">
+            <h3>Selecciona los productos a pedir</h3>
+            <h4>Ananay</h4>
+            <select class="form-select" [(ngModel)]="selected">
+                <option *ngFor="let c of stock1">{{c.prod}}</option>
+            </select>
+            <button (click)="addProducto()" class="btn"><i class="fas fa-cart-plus"></i></button>
+            <h4>NUDO</h4>
+            <select class="form-select" [(ngModel)]="selected">
+                <option></option>
+                <option *ngFor="let c of stock2">{{c.prod}}</option>
+            </select>
+            <button (click)="addProducto()" class="btn"><i class="fas fa-cart-plus"></i></button>
+            <h4>Dejavu Mágico</h4>
+            <select class="form-select" [(ngModel)]="selected">
+                <option></option>
+                <option *ngFor="let c of stock3">{{c.prod}}</option>
+            </select>
+            <button (click)="addProducto()" class="btn"><i class="fas fa-cart-plus"></i></button>
+
+            <button (click)="calcular()" class="btnT">Calcular Total</button>
+
+            <div>
+                <button class="btn" (click)="displayPay()" style="font-family: 'Blippo';padding: 10px; font-size: 15px; margin-top: 20px; margin-bottom: 20px;">Pagar vía online</button>
+                <div id="pay">
+                    <div class="row">
+                        <div class="col-md-5">
+                        <label for="name" class="form-label">Nombre completo:</label>
+                        <input type="text" [(ngModel)] = "factura.nombre" class="form-control" id="name" required>
+                        <div class="invalid-feedback">
+                          Campo obligatorio
+                        </div>
+                    </div>
+          
+                    <div class="col-md-3">
+                    <label for="ci" class="form-label">CI:</label>
+                    <input type="text" class="form-control" id="ci" [(ngModel)] = "factura.nit" required>
+                    <div class="invalid-feedback">
+                        Campo obligatorio
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="recibo">
+            <h3>Recibo de Compra</h3>
+            <h4>Lista de Productos</h4>
+            <ol>
+                <li *ngFor= "let c of pedidos; index as i">            
+                    {{c.prod}}&nbsp;&nbsp;&nbsp;{{c.cost}} Bs.
+                   <button (click)="deleteProducto(i)" class="btnc"><i class="fas fa-window-close"></i></button>     
+                </li>
+            </ol>
+            <h5 style="display: inline;">Total: </h5>
+            <p style="display: inline;">{{total}} Bs.</p>
+
+            <div id="infopay" style="margin-top: 20px;">
+                <h4 style="display: inline;">Nombre:</h4>
+                <p style="display: inline;">   {{factura.nombre}}</p>
+            
+                <div>
+                    <h4 style="display: inline;">NIT:</h4>
+                <p style="display: inline;">   {{factura.nit}}</p>
+
+                </div>
+                <button class="btnpay">Pagar</button>
+        </div>
+    </div>
+</div>
+

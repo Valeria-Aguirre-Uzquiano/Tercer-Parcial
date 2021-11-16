@@ -1,0 +1,137 @@
+h2{
+  font-family: 'Lucida Bright';
+}
+
+.spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: absolute;
+    top: 5;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #F3F3F3;
+    color: black;
+    font-weight: 600;
+    opacity: 0.8;
+    padding-left: 30px;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+
+  a{
+    color: #81B14F;
+    
+  }
+
+  a:hover{
+    color: #DFE16A;
+  }
+
+  img{
+    width: 170px;
+    background-color: red;
+  }
+
+  
+  .nav-link{
+    border-style: none;
+    font-family: 'Bahnschrift SemiBold';
+    font-size: 30px;
+  }
+
+  .content {
+    display: flex;
+    margin: 70px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+
+  .pages{
+    margin-top: 100px;
+  }
+
+  .us{
+    background-color: #DFE16A;
+    padding: 10px;
+    color: black;
+    border-color: #F3F3F3;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    font-family: 'Calibri Light';
+    font-size: 20px;
+  }
+
+  i{
+    font-size: 200px;
+    margin: auto;
+    color: #81B14F;
+  }
+
+  .card{
+    width: 18rem; 
+    height: 32rem;
+    padding: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #D7D3C1;
+    border-width: 5px;
+  }
+
+  .solicitud{
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    background-color: #D7D3C1;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #F3F3F3;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#form{
+  display: none;
+}
+
+.solicitud label{
+    font-family: 'Oswald';
+}
+
+.form-check-label{
+    color: black;
+}
+
+.btn{
+  margin-top: 15px;
+  padding: 10px;
+  border-style: none;
+  border-radius: 20px;
+  background-color: #DFE16A;
+  font-family: 'Oswald';
+}
+
+.btn:hover{
+  background-color: #81B14F;
+  font-family: 'Oswald';
+}
+
+  footer {
+    background-color: #D7D3C1;
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+    line-height: 80px;
+
+  }

@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+    font-family: 'Copperplate Gothic Bold'; 
+    font-weight: bold;
+}
+
+h3, h2, h4{
+    text-align: center;
+    background-color: #F3F3F3;
+    font-family: 'Lucida Bright';
+}
+
+.social{
+    background-color: #D7D3C1;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 3px;
+    border-color: #F3F3F3;
+    text-align: center;
+    font-size: 50px;
+}
+
+.social a{
+    margin: 0px 10px 0px 10px;
+}
+
+iframe {
+    border-radius: 20px;
+}
+
+.comment{
+    background-color: #81B14F;
+    border-style: solid;
+    border-color: #F3F3F3;
+    border-width: 3px;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    
+}
+
+.comment h3, h4{
+    text-align: left;
+    background: none;
+    font-family: 'Tahoma';
+}
+
+.comment label{
+    font-family: 'Oswald';
+}
+
+.btn{
+    background-color: #D7D3C1;
+    color: black;
+    font-family: 'Oswald';
+}
+
+.btn:hover{
+    background-color: #F3F3F3;
+}
+
+.btn2{
+    padding: 20px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: #DFE16A;
+    font-family: 'Oswald';
+}
+
+.btn2:hover{
+    background-color: #81B14F;
+    font-family: 'Oswald';
+}
+
+.solicitud{
+    margin: auto;
+    width: 90%;
+    background-color: #D7D3C1;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #F3F3F3;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.solicitud label{
+    font-family: 'Oswald';
+}
+
+.form-check-label{
+    color: black;
+}

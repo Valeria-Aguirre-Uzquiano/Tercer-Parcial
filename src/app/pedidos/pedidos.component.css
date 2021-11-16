@@ -1,0 +1,104 @@
+
+
+.col h3{
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+
+h4, label{
+    font-family: 'Goudy Old Style';
+}
+
+label{
+    font-weight: bold;
+}
+
+.form-select{
+    width: 250px; 
+    display: inline;
+    margin-bottom: 10px;
+}
+
+.lista{
+    background-color: #D7D3C1;
+    border: #F3F3F3;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.recibo{
+    background-color: #81B14F;
+    border: #F3F3F3;
+    border-style: dashed;
+    border-width: 3px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.recibo h3{
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+
+.recibo h4, label{
+    font-family: 'Goudy Old Style';
+    font-weight: bold;
+}
+
+#pay, #infopay{
+    display: none;
+}
+
+.btn{
+    margin-left: 20px;
+    background-color: #DFE16A;
+    border-radius: 100%;
+    border-style: none;
+}
+
+.btnT{
+    margin-left: 210px;
+    background-color: black;
+    color: #F3F3F3;
+    border-radius: 20px;
+    border-style: none;
+    font-family: 'Blippo';
+    font-size: 20px;
+    padding: 5px;
+}
+
+.btnT:hover{
+    color: black;
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.btnc{
+    background: none;
+    color: #F3F3F3;
+    font-size: 20px;
+    border-style: none;
+}
+
+.recibo li, p{
+    font-family: 'Consolas';
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.btnpay{
+    margin-top: 30px;
+    border-style: none;
+    background-color: #D7D3C1;
+    font-family: 'Consolas';
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.btnpay:hover{
+    color: #D7D3C1;
+    background-color: black;
+}

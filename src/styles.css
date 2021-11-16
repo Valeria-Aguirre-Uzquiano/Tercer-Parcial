@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url('https://www.tiovivocreativo.com/wp-content/uploads/2018/01/interiorismo-comercial-farmacia-reoj-eneseis-arquitectura-plus-yes-studio-archilovers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center; 
+    font-family: 'Copperplate Gothic Bold'; 
+    font-weight: bold;
+}
